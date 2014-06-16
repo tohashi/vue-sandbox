@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+
+  body
+    div#demo(param='foo', v-on='click:refresh')
+      {{message}}
+      <input v-model='message'>
+
+    script(src='dist/app.js')
